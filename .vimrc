@@ -20,7 +20,8 @@ call vundle#end()
 
 filetype plugin indent on
 
-let base16colorspace=256 "access colors present in 256 colorspace
+"let base16colorspace=256 "access colors present in 256 colorspace
+let base16colorspace=16 "access colors present in 256 colorspace
 
 " colors {
 syntax enable
@@ -48,7 +49,7 @@ let g:airline_theme = 'minimalist'
 "emmet-vim
 let g:user_emmet_mode = 'i'
 let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
+autocmd FileType html,htmldjango,css EmmetInstall
 "let g:user_leader_key = '<C-Tab>'
 
 
